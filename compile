@@ -1,2 +1,2 @@
 rm -rf scop
-g++ -o scop main.cpp src/glad.c -Iinclude -lglfw -lGL -ldl
+g++ -o scop main.cpp src/*.c -Iinclude -lglfw -lGL -ldl
